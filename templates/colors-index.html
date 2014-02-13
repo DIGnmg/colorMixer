@@ -1,0 +1,29 @@
+<!--
+  This template gets placed in the Pet tab's <nav-view> directive.
+  It was wired up in the app config (app.js)
+  The 'pets' data comes from its $scope within PetIndexCtrl (controller.js)
+-->
+<view title="'Color Mixer'">
+  <content has-header="true" has-tabs="true">
+
+    <div class="list">
+      <div class="item range range-assertive">
+        <i class="icon ion-record"></i>
+        <input slider-change ng-model="red" type="range" name="red" min="0" max="255" value="127">
+        <i class="icon ion-ios7-circle-outline"></i>
+      </div>
+      <div class="item range range-balanced">
+        <i class="icon ion-record"></i>
+        <input slider-change ng-model="green" type="range" name="green" min="0" max="255" value="127">
+        <i class="icon ion-ios7-circle-outline"></i>
+      </div>
+      <div class="item range range-positive">
+        <i class="icon ion-record"></i>
+        <input slider-change ng-model="blue" type="range" name="blue" min="0" max="255" value="127">
+        <i class="icon ion-ios7-circle-outline"></i>
+      </div>
+    </div>
+
+  </content>
+</view>
+
