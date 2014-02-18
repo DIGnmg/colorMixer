@@ -28,8 +28,7 @@ angular.module('starter', ['ionic', 'starter.directives'])
       url: '/colors',
       views: {
         'colors-tab': {
-          templateUrl: 'templates/colors-index.html',
-          controller: 'ColorIndexCtrl'
+          templateUrl: 'templates/colors-index.html'
         }
       }
     })
